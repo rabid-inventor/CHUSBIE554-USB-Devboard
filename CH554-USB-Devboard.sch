@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:CH552-USB-Devboard-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -26,7 +25,7 @@ F 3 "~" H 10500 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MCU_WCH:CH552T U1
+L CH554-USB-Devboard-rescue:CH552T-MCU_WCH U1
 U 1 1 5E91FA86
 P 3800 5200
 F 0 "U1" H 3575 6165 50  0000 C CNN
@@ -37,7 +36,7 @@ F 3 "" H 4100 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_WCH:CH552G U2
+L CH554-USB-Devboard-rescue:CH552G-MCU_WCH U2
 U 1 1 5E91FB0A
 P 8550 5500
 F 0 "U2" H 8525 6215 50  0000 C CNN
