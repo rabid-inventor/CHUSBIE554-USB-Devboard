@@ -292,9 +292,9 @@ Wire Wire Line
 	6700 5950 7300 5950
 Wire Wire Line
 	6700 6100 7300 6100
-Text Label 6700 5950 0    50   ~ 0
-P3.0
 Text Label 6700 6100 0    50   ~ 0
+P3.0
+Text Label 6700 5950 0    50   ~ 0
 P3.1
 Text Label 6700 5050 0    50   ~ 0
 P3.2
@@ -373,9 +373,9 @@ F 3 "" H 10250 4850 50  0001 C CNN
 	1    10250 4850
 	1    0    0    -1  
 $EndComp
-Text Label 9600 1800 2    50   ~ 0
-P3.0
 Text Label 9600 2150 2    50   ~ 0
+P3.0
+Text Label 9600 1800 2    50   ~ 0
 P3.1
 Text Notes 9800 1850 2    50   ~ 0
 RX\n\n
@@ -413,17 +413,6 @@ Wire Wire Line
 	4450 1050 4450 1400
 Wire Wire Line
 	4050 1050 4050 850 
-$Comp
-L power:VCC #PWR0114
-U 1 1 5E94BA61
-P 4050 850
-F 0 "#PWR0114" H 4050 700 50  0001 C CNN
-F 1 "VCC" H 4067 1023 50  0000 C CNN
-F 2 "" H 4050 850 50  0001 C CNN
-F 3 "" H 4050 850 50  0001 C CNN
-	1    4050 850 
-	1    0    0    -1  
-$EndComp
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5E94BC64
@@ -1225,4 +1214,6 @@ F 3 "~" H 4000 3150 50  0001 C CNN
 	1    4000 3150
 	0    -1   1    0   
 $EndComp
+Text Label 4050 850  0    50   ~ 0
+VSYS
 $EndSCHEMATC
